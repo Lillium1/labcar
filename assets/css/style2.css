@@ -218,7 +218,9 @@ hr {
 	.masGr {
 		font-size: 25px;
 	}
-
+	.navbar-toggle {
+    	float: left;
+    }
 }
 
 @media (min-width: 768px){
