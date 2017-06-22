@@ -6,6 +6,7 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+
 .subt {
 	font-size: 25px;
 }
@@ -22,6 +23,10 @@
 .bg-colorf {
 	background-color: #2b2b2b;
 	color: whitesmoke;
+}
+
+.descargaApp {
+	font-size: 18px;
 }
 
 /*----------- MENU ------------*/
@@ -54,8 +59,8 @@
 	float: right;
 }
 
-.signUp span{
-	font-size: 30px;
+.titu {
+	font-size: 28px;
 }
 
 .logo-blanco{
@@ -71,19 +76,22 @@
 
 /*----------- DESCARGA ------------*/
 
+.celular{
+	padding: 50px 200px 50px 0;
+}
+
+.app-img{
+	padding-left: 100px;
+}
+
 .app {
-	margin: 50px 0;
 	border: 1px solid whitesmoke;
-	padding: 30px;
+	border-left: 0;
+	padding: 50px;
 }
 
-.celular  {
-    padding-right: 30%;
-    padding-left: 0;
-}
-
-.descargaApp {
-	font-size: 18px;
+.app-img img{
+	width: 250px
 }
 
 input {
@@ -95,11 +103,15 @@ input {
 	color: black;
 	background-color: whitesmoke;
 	margin-top: 20px;
-	font-weight: 900;
+	font-weight: 600;
 }
 
 
 /*----------- CONDUCE ------------*/
+
+#viaja {
+	padding: 50px 100px;
+}
 
 .fondo-conduce {
 	background-image: url(../img/conduce.jpg);
@@ -113,7 +125,6 @@ input {
 	background-color: rgba(0,0,0,0.5);
 	float: right;
 	padding: 120px 30px;
-	height: 430px;
 }
 
 .btn-warning {
@@ -124,15 +135,10 @@ input {
 
 /*----------- TARIFA ------------*/
 
-#conduce {
-	padding: 50px 0;
-}
-
 #mapa {
 	height: 400px;
 	border: 2px solid whitesmoke;
 	padding: 50px;
-	background-color: red;
 }
 
 .partida input,
@@ -160,7 +166,7 @@ hr {
 
 #footer {
 	color: whitesmoke;
-	padding: 50px 0;
+	padding: 50px 100px;
 }
 
 .link-footer ul {
@@ -182,14 +188,37 @@ hr {
 }
 
 .movil-store img{
-	vertical-align: bottom;
-	border: 0;
-        
+	width: 60%;
+	padding-bottom: 20px;
 }
 
+.r-social a {
+	color: white;
+	padding-left: 5px;
+}
 
+.r-social a:hover {
+	color: #f7b617;
+}
 @media (min-width: 1px) and (max-width: 768px){
 	.fondo{
 		background-position-y: 0;	
 	}
+
+	.celular{
+		padding: 20px;
+	}
+
+	.app {
+		border: 1px solid white;
+	}
+	
+	.masGr {
+		font-size: 25px;
+	}
+
+}
+
+@media (min-width: 768px){
+
 }
