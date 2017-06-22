@@ -31,9 +31,10 @@
 
 /*----------- MENU ------------*/
 
-.navbar-default {
-    background-color: white;
-    border-color: none;
+.menu {
+    background-color: transparent;
+    border: transparent;
+    padding: 15px;
 }
 
 
@@ -53,9 +54,8 @@
 .signUp {
 	background-color: #f7b617;
 	height: 350px;
-	width: 480px;
 	color: white;
-	padding: 40px 0px 50px 40px;
+	padding: 40px 0px 40px 40px;
 	float: right;
 }
 
@@ -200,6 +200,8 @@ hr {
 .r-social a:hover {
 	color: #f7b617;
 }
+
+
 @media (min-width: 1px) and (max-width: 768px){
 	.fondo{
 		background-position-y: 0;	

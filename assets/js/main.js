@@ -1,8 +1,10 @@
+var menu = document.getElementById("btn-menu");
 
+menu.addEventListener("click",function(){
+	var nav = document.getElementById("bs-example-navbar-collapse-1");
+	nav.classList.toggle("nav-menu");
+})
 
-document.getElementById("btn-menu").addEventListener("click", function() {
-    document.getElementById("despliega").classList.toggle("hamburguesa");
-});
 
 function initMap(){
    	var map = new google.maps.Map(document.getElementById("mapa"),{
